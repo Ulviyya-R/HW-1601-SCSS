@@ -1,0 +1,126 @@
+header {
+  padding-top: 20px;
+  background-color: #212529;
+  height: 70vh;
+}
+header .container .row .logo span {
+  color: white;
+  font-size: 25px;
+}
+header .container .row nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header .container .row nav ul {
+  display: flex;
+}
+header .container .row nav ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header .container .row nav ul li a {
+  text-decoration: none;
+  color: #dee1e6;
+}
+header .container .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+header .container .bottom .title h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+header .container .bottom .title p {
+  color: #dee1e6;
+  align-items: center;
+  margin-left: 30px;
+}
+header .container .bottom .button {
+  margin-left: 150px;
+}
+
+#Featured .container .row .feature {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: black;
+}
+#Featured .container .row .feature .icon {
+  color: white;
+  background-color: blue;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+#Featured .container .row .feature .button a {
+  text-decoration: none;
+}
+
+#Pays .container .title {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+#Pays .container .title h2 {
+  font-weight: bolder;
+}
+#Pays .container .row {
+  padding-bottom: 100px;
+}
+#Pays .container .row .back {
+  width: 350px;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 30px;
+}
+#Pays .container .row .back .pay h4 {
+  color: #6c757d;
+  font-weight: bolder;
+  font-size: 19px;
+}
+#Pays .container .row .back .pay h4 svg {
+  color: #ffc107;
+}
+#Pays .container .row .back .pay span {
+  font-weight: bolder;
+  font-size: 30px;
+}
+#Pays .container .row .back .pay small {
+  color: #6c757d;
+}
+#Pays .container .row .back ul li {
+  list-style: none;
+}
+#Pays .container .row .back .button a {
+  padding: 6px 95px 6px 95px;
+}
+
+#Customer .container .title {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+#Customer .container .title h2 {
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+#Customer .container .title p {
+  font-size: 18px;
+  color: rgb(31, 31, 31);
+}
+#Customer .comments .comment {
+  width: 80%;
+  border: 1px solid rgb(189, 189, 189);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#Customer .comments .comment svg {
+  color: blue;
+}
+#Customer .comments .comment p {
+  color: #6c757d;
+}/*# sourceMappingURL=main.css.map */

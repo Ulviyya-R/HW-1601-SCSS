@@ -1,0 +1,110 @@
+#Featured {
+    .container{
+        .row{
+            .feature{
+                margin-top: 100px;
+                margin-bottom: 100px;
+                color: black;
+                .icon{
+                    color: white;
+                    background-color: blue;
+                    width: max-content;
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+                .button{
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+#Pays{
+    .container{
+        
+        .title{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            text-align: center;
+            h2{
+                font-weight: bolder;
+            }
+        }
+        .row{
+            padding-bottom: 100px;
+
+        .back{
+           
+            width: 350px;
+            background-color: white;
+            border: 1px solid gray;
+            padding: 30px;
+            .pay{
+                h4{
+                    color: #6c757d;
+                    font-weight: bolder;
+                    font-size: 19px;
+                    svg{
+                        color:#ffc107;
+                    }
+                }
+                span{
+                    font-weight: bolder;
+                    font-size: 30px;
+                }
+                small{
+                    color:#6c757d;
+                }
+               
+            }
+            ul{
+                li{
+                    list-style: none;
+                }
+            }
+            .button{
+                a{
+                    padding: 6px 95px 6px 95px;
+                }
+            }
+        }
+         
+            } 
+        }
+    }
+#Customer{
+    .container{
+        .title{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            text-align: center;
+            h2{
+                font-weight: bolder;
+                color: rgb(0, 0, 0);
+            }
+            p{
+               font-size: 18px;
+               color: rgb(31, 31, 31);
+            }
+        }
+    }
+    .comments{
+       
+        .comment{
+            width: 80%;
+            border: 1px solid rgb(189, 189, 189);
+          padding: 20px;
+          margin-bottom: 20px;
+           
+          svg{
+            color: blue;
+            
+          }
+          p{
+            color: #6c757d;
+          }
+        }
+    }
+}
